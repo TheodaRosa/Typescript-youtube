@@ -1,6 +1,6 @@
 let numeros:number[]=[10, 20, 40];
-//let numeros:Array<number>=[20,10.50];
-//let numeros:Array(number)=[20,10.50];
+//let numeros:Array<number>=[20, 10, 50];
+//let numeros:Array(number)=[20, 10, 50];
 
 numeros.push(50);
 numeros.unshift(0);

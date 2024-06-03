@@ -2,7 +2,10 @@
 let nome;
 nome = "Theo";
 nome = "Nathan";
-let valor = 0;
+let valor;
 valor = 15.01;
+let booleano;
+booleano = true;
 console.log(valor);
 console.log(nome);
+console.log(booleano);
