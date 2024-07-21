@@ -1,16 +1,19 @@
 "use strict";
 class computer {
-    nome = "Roberto-1";
+    nome;
     ram = 0;
     cpu = 0;
     ligado = false;
+    constructor(n, r, c) {
+        this.nome = n;
+        this.ram = r;
+        this.cpu = c;
+        console.log("Novo Computador Criado");
+    }
 }
-const a1 = new computer();
-const a2 = new computer();
-const a3 = new computer();
-a1.nome = "Gui";
-a2.nome = "lher";
-a3.nome = "gamyer";
+const a1 = new computer("Tempo", 8, 100);
+const a2 = new computer("e", 16, 128);
+const a3 = new computer("Vento", 128, 3000);
 console.log(a1.nome);
 console.log(a2.nome);
 console.log(a3.nome);
